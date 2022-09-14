@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Proyecto Desarrollo de software 1</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+	<link href="css/calendario.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12-1">
+			<div class="img-centrar">
+				<img alt="Vista previa de la imagen Bootstrap" src="img/fondo.jpg" >
+			</div>
+			<ul class="nav">
+				<li class="nav-item">
+					<a class="nav-link active" href="index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Introduccion</font></font></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="descripcion.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Descripción del problema</font></font></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="objetivos.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Objetivos</font></font></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="limitaciones.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Limitaciones y recursos</font></font></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="metodologia.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Metodología</font></font></a>
+				</li>
+				<button>
+				<li class="nav-item">
+					<a class="nav-link" href="calendario.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Calendario</font></font></a>
+				</li>
+				</button>
+
+			</ul>
+			
+
+			<br>
+			<div class="calendario">
+				<h3 class="text-center">
+					CALENDARIO DE ACTIVIDADES
+				</h3>
+				<p class="text-left lead">
+					<h5>
+					Para poder organizar las actividades que se realizaran a lo largo del curso, se hizo uso de una
+					herramienta grafica llamada <strong>Diagrama de Gantt</strong>, a continuación se muestran los
+					SPRINTS que se realizaran con sus respectivas actividades.
+					</h5>
+				</p>
+
+				<style>
+					#textoGANTT{
+						display: none;
+					}
+
+					#img {
+						display: none;
+					}
+
+					#img2 {
+						display: none;
+					}
+
+					#img3 {
+						display: none;
+					}
+				</style>
+				</head>
+				<body>
+					<button id="botontxt" onclick="mostrartxt();">¿Que es el diagrama de GANTT?</button>
+					<br>
+					<div id="textoGANTT">
+						<p id="gantt"><strong>¿Qué es y par a qué sirve el diagrama de Gantt?</strong>
+							<br>Los diagramas de Gantt sirven para visualizar los componentes básicos de un proyecto y para
+							organizarlo en tareas más pequeñas y gestionables. Las pequeñas tareas resultantes se
+							programan en la línea de tiempo del diagrama de Gantt, junto con las dependencias entre las
+							tareas, las personas asignadas y los hitos.</p>
+						<button id="boton" onclick="ocultar4();">Ocultar Texto</button>
+					</div>
+					<br>
+					<button id="boton" onclick="mostrar();" >Mostrar SPRINT 1</button>
+					<h1 id="boton" onclick="mostrar();"></h1>
+					<div id="img">
+						<button id="boton" onclick="ocultar();">Ocultar Imagen</button>
+						<img src="img/sprint1.jpg" width="600px" alt="">
+					</div>
+
+					<button id="boton2" onclick="mostrar2();">Mostrar SPRINT 2</button>
+					<h1 id="boton" onclick="mostrar();"></h1>
+					<div id="img2">
+						<button id="boton" onclick="ocultar2();">Ocultar Imagen</button>
+						<img src="img/sprint2.jpg" width="800px" alt="">
+					</div>
+
+					<button id="boton3" onclick="mostrar3();">Mostrar SPRINT 3</button>
+					<h1 id="boton" onclick="mostrar();"></h1>
+					<div id="img3">
+						<button id="boton" onclick="ocultar3();">Ocultar Imagen</button>
+						<img src="img/sprint3.jpg" width="800px" alt="">
+					</div>
+
+					<script>
+						
+						function mostrartxt() {
+							document.getElementById('textoGANTT').style.display = 'block';
+						}
+						function ocultar4() {
+							document.getElementById('textoGANTT').style.display = 'none';
+						}
+					
+						function mostrar() {
+							document.getElementById('img').style.display = 'block';
+						}
+						function ocultar() {
+							document.getElementById('img').style.display = 'none';
+						}
+
+						function mostrar2() {
+							document.getElementById('img2').style.display = 'block';
+						}
+						function ocultar2() {
+							document.getElementById('img2').style.display = 'none';
+						}
+
+						function mostrar3() {
+							document.getElementById('img3').style.display = 'block';
+						}
+						function ocultar3() {
+							document.getElementById('img3').style.display = 'none';
+						}
+					</script>
+					<a href="https://docs.google.com/spreadsheets/d/1N87Qk91gcEkcxRniP90p-8lpTlUjtDQ8twtdU8Hhtxo/edit?usp=sharing">ENLACE PARA VER DIAGRAMA DE GANNT COMPLETO</a>
+			</div>
+			<br>
+			<div class="contenedor">
+				<br>
+				<div class="contenedor-center">@Grupo Bichotas 3.0<br>Desarrollo de software I</div>
+				<br>
+			</div>
+		</div>
+	</div>
+</div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

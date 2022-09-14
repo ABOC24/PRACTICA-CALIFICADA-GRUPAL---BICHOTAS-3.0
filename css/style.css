@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(194, 247, 196);
+}
+.img-centrar{
+    text-align: center;
+}
+
+.col-md-12-1{
+    margin: 2%;
+    
+}
+.contenedor{
+    background-color: rgb(51, 223, 56);
+    width: 100%;
+    height: auto;
+}
+
+.contenedor-center{
+    text-align: center;
+    color: blue;
+}
+

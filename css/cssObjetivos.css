@@ -1,0 +1,25 @@
+.objetivos{
+    margin:2%;
+    width:97%;
+    height: 100%;
+}
+
+.objetivos-titulo{
+    text-align: center;
+    font-size: 3em;
+    color:rgb(10, 96, 172);
+}
+
+.objetivos-sub{
+    font-size: 2em;
+    color:rgb(12, 115, 206);
+}
+.objetivos-gen{
+    margin:1%;
+}
+.objetivos-lista{
+    margin: 1%;
+}
+.contenedor-contenido{
+    background-color: rgb(221, 248, 244);
+}
